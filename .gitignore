@@ -1,0 +1,22 @@
+### eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+/bin/**
+/log/**
+/out/**
+/.idea/**
+*/node_modules/
+*/_book/
+*/target/
+*/target/**
