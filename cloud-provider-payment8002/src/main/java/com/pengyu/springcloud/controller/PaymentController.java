@@ -58,4 +58,9 @@ public class PaymentController {
             return new CommonResult(444 ,"getPaymentById failed", null);
         }
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
 }
